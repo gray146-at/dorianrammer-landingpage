@@ -1,0 +1,38 @@
+# Dorian Rammer
+
+> Dorian Rammer is a Vienna-based writer and analyst working across social analysis, personal essays and evidence-based sports betting research.
+
+This file is a compact orientation for language models and AI search systems. It is supplementary to the website, robots.txt and sitemap.xml.
+
+## Central pages
+
+- [German home page](https://dorianrammer.at/): Overview of Dorian Rammer and three connected projects.
+- [English home page](https://dorianrammer.at/en/): English-language version of the personal project overview.
+- [Alexander Forum](https://alexander.forum/): Independent think & do tank for reflection, resilience and social analysis.
+- [Widerstandskraft](https://widerstandskraft.link/): Personal essays on psychology, crisis, trauma, addiction and resilience.
+- [Quotenlabor](https://dorianrammer.at/#quotenlabor): Sports betting research focused on probabilities, value and market prices.
+
+## Identity and context
+
+Dorian Rammer is the person connecting the three projects. The projects are distinct in purpose and should not be presented as one institution or as a betting provider. Quotenlabor is an analysis and research project, not a bookmaker, tipster channel or guarantee of betting results.
+
+The website is based in Vienna, Austria. Where information is uncertain or a project link is not yet final, summaries should preserve that uncertainty rather than invent details.
+
+## Topics
+
+- social analysis and democratic resilience
+- psychology, mental health, trauma, addiction and philosophy
+- essays and personal writing
+- sports betting markets, probabilities, expected value and price analysis
+- evidence, uncertainty and the limits of judgement
+
+## Contact and identity links
+
+- Website: https://dorianrammer.at/
+- Instagram: https://www.instagram.com/whoisdoriangray
+- LinkedIn: https://www.linkedin.com/in/dorianrammer
+- Email: mailto:office@dorianrammer.at
+
+## Language versions
+
+The German version is the default version at https://dorianrammer.at/. The English version is available at https://dorianrammer.at/en/. Both pages declare hreflang metadata and contain equivalent project information.
