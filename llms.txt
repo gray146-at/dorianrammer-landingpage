@@ -8,9 +8,11 @@ This file is a compact orientation for language models and AI search systems. It
 
 - [German home page](https://dorianrammer.at/): Overview of Dorian Rammer and three connected projects.
 - [English home page](https://dorianrammer.at/en/): English-language version of the personal project overview.
+- [Über Dorian](https://dorianrammer.at/ueber-dorian-rammer/): German background and working perspective.
+- [About Dorian](https://dorianrammer.at/en/about/): English background and working perspective.
 - [Alexander Forum](https://alexander.forum/): Independent think & do tank for reflection, resilience and social analysis.
 - [Widerstandskraft](https://widerstandskraft.link/): Personal essays on psychology, crisis, trauma, addiction and resilience.
-- [Quotenlabor](https://dorianrammer.at/#quotenlabor): Sports betting research focused on probabilities, value and market prices.
+- [Quotenlabor](https://dorianrammer.at/#quotenlabor): Sports betting research focused on probabilities, value and market prices. The project is currently in development.
 
 ## Identity and context
 
