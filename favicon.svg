@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Dorian Rammer</title>
+  <desc id="desc">Blaues D auf dunklem Grund</desc>
+  <rect width="64" height="64" rx="14" fill="#030816"/>
+  <circle cx="32" cy="32" r="20" fill="none" stroke="#f4f7fb" stroke-width="4"/>
+  <path d="M28 20v23h12" fill="none" stroke="#2f7cff" stroke-width="5" stroke-linecap="square"/>
+  <path d="M39 39l10 10" fill="none" stroke="#f4f7fb" stroke-width="4" stroke-linecap="square"/>
+</svg>
