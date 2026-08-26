@@ -158,12 +158,18 @@
       border-bottom:1px solid var(--rule)
     }
 
-    .hero-image{
+    .portrait{
+      padding:64px 0 16px;
+      text-align:center
+    }
+
+    .portrait img{
       display:block;
-      width:min(100%,560px);
+      width:min(100%,520px);
       height:auto;
-      margin:0 auto 48px;
+      margin:0 auto;
       border:1px solid var(--rule);
+      box-shadow:0 18px 50px rgba(0,0,0,.18)
     }
 
     .eyebrow{
@@ -296,8 +302,8 @@
         padding-top:48px
       }
 
-      .hero-image{
-        margin-bottom:38px
+      .portrait{
+        padding:48px 0 8px
       }
 
       .wrap{
@@ -320,16 +326,6 @@
 
     <section class="hero">
       <div class="wrap">
-
-        <img
-          class="hero-image"
-          src="../../ueber-dorian-rammer/Dorian-Rammer-Portrait-Editorial.jpg"
-          alt="Dorian Rammer standing between the Austrian and European Union flags"
-          width="1122"
-          height="1402"
-          fetchpriority="high"
-        >
-
         <div class="eyebrow">Who is behind it</div>
 
         <h1>About Dorian</h1>
@@ -338,6 +334,19 @@
           “I try to understand before I judge.”
         </blockquote>
 
+      </div>
+    </section>
+
+    <section class="portrait" aria-label="Portrait of Dorian Rammer">
+      <div class="wrap">
+        <img
+          src="../../ueber-dorian-rammer/Dorian-Rammer-Portrait-Editorial.jpg"
+          alt="Dorian Rammer standing between the Austrian and European Union flags"
+          width="1122"
+          height="1402"
+          loading="eager"
+          decoding="async"
+        >
       </div>
     </section>
 
