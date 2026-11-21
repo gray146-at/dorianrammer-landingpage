@@ -1,7 +1,10 @@
 /* dorianrammer.at
    Gemeinsames Stylesheet für Startseite und Über-Seite (DE/EN).
    Schriften wie Widerstandskraft: Lora (Überschriften, Lesetext), Noto Sans (Gebrauchstext).
-   Rot #d81e1e nur als Signal: Daten, Link-Linien, Auswahl, Fokus, roter Faden. */
+   Rot #d81e1e nur als Signal: Daten, Link-Linien, Auswahl, Fokus, roter Faden.
+   Nach jeder Änderung an dieser Datei oder an den Skripten die Versionsnummer
+   (?v=JJJJMMTT) in den Links aller HTML-Seiten erhöhen, sonst sehen Besucher bis
+   zu 10 Minuten die alte Fassung. */
 
 @font-face{
   font-family:'Lora';
