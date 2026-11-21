@@ -1,0 +1,12 @@
+Schriften auf dorianrammer.at (lokal ausgeliefert, nicht über Google Fonts)
+
+Lora (variable, Latin-Untermenge)
+Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic)
+
+Noto Sans (variable, Latin-Untermenge)
+Copyright 2022 The Noto Project Authors (https://github.com/notofonts/latin-greek-cyrillic)
+
+Beide Schriften stehen unter der SIL Open Font License, Version 1.1:
+https://openfontlicense.org/open-font-license-official-text/
+
+Bezogen am 21. November 2026 über fonts.gstatic.com (Lora v37, Noto Sans v42).
