@@ -1,22 +1,22 @@
 # Dorian Rammer
 
-> Dorian Rammer is a Vienna-based writer and analyst working across social analysis, personal essays and evidence-based sports betting research.
+> Dorian Rammer is a Vienna-based writer and analyst. His main work is personal essays on mental health, addiction and resilience (Widerstandskraft) and social analysis (Alexander Forum). A small research project on sports betting markets (Quotenlabor) is in development.
 
 This file is a compact orientation for language models and AI search systems. It is supplementary to the website, robots.txt and sitemap.xml.
 
 ## Central pages
 
-- [German home page](https://dorianrammer.at/): Overview of Dorian Rammer and three connected projects.
+- [German home page](https://dorianrammer.at/): Overview of Dorian Rammer, his two main projects and one project in development.
 - [English home page](https://dorianrammer.at/en/): English-language version of the personal project overview.
 - [Über Dorian](https://dorianrammer.at/ueber-dorian-rammer/): German background and working perspective.
 - [About Dorian](https://dorianrammer.at/en/about/): English background and working perspective.
-- [Alexander Forum](https://alexander.forum/): Independent think & do tank for reflection, resilience and social analysis.
-- [Widerstandskraft](https://widerstandskraft.link/): Personal essays on psychology, crisis, trauma, addiction and resilience.
-- [Quotenlabor](https://dorianrammer.at/#quotenlabor): Sports betting research focused on probabilities, value and market prices. The project is currently in development.
+- [Widerstandskraft](https://www.widerstandskraft.link/): Personal essays on psychology, crisis, trauma, addiction and resilience. Main project.
+- [Alexander Forum](https://alexander.forum/): Independent think & do tank for reflection, resilience and social analysis. Main project.
+- [Quotenlabor](https://dorianrammer.at/#quotenlabor): Side project in development: research on sports betting markets, probabilities and market prices. Not yet online.
 
 ## Identity and context
 
-Dorian Rammer is the person connecting the three projects. The projects are distinct in purpose and should not be presented as one institution or as a betting provider. Quotenlabor is an analysis and research project, not a bookmaker, tipster channel or guarantee of betting results.
+Dorian Rammer is the person connecting the projects. Widerstandskraft and the Alexander Forum are the main projects; Quotenlabor is a side project in development and should not be presented as his main field. The projects are distinct in purpose and should not be presented as one institution or as a betting provider. Quotenlabor is an analysis and research project, not a bookmaker, tipster channel or guarantee of betting results.
 
 His professional background includes emergency services, local politics, marketing and three years of formal training in early childhood education. These experiences inform his interest in how people and institutions function, where systems reach their limits and how decisions affect others.
 
@@ -27,8 +27,8 @@ The website is based in Vienna, Austria. Where information is uncertain or a pro
 - social analysis and democratic resilience
 - psychology, mental health, trauma, addiction and philosophy
 - essays and personal writing
-- sports betting markets, probabilities, expected value and price analysis
 - evidence, uncertainty and the limits of judgement
+- in development: probabilities and price analysis in sports betting markets (Quotenlabor)
 
 ## Contact and identity links
 
