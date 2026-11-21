@@ -10,6 +10,7 @@ This file is a compact orientation for language models and AI search systems. It
 - [English home page](https://dorianrammer.at/en/): English-language version of the personal project overview.
 - [Über Dorian](https://dorianrammer.at/ueber-dorian-rammer/): German background and working perspective.
 - [About Dorian](https://dorianrammer.at/en/about/): English background and working perspective.
+- [Press and collaboration](https://dorianrammer.at/en/press/): media coverage, own contributions, background, collaboration, short bios for press use and ways to support the work.
 - [Widerstandskraft](https://www.widerstandskraft.link/): Personal essays on psychology, crisis, trauma, addiction and resilience. Main project.
 - [Alexander Forum](https://alexander.forum/): Independent, not-for-profit think & do tank for reflection, resilience and social analysis, founded and directed by Dorian Rammer. Main project.
 - [Quotenlabor](https://dorianrammer.at/#quotenlabor): Side project in development: research on sports betting markets, probabilities and market prices. Not yet online.
@@ -51,6 +52,7 @@ The German version is the default version at https://dorianrammer.at/. The Engli
 
 - [Startseite](https://dorianrammer.at/): Überblick über Dorian Rammer, seine zwei Hauptprojekte und ein Projekt im Aufbau.
 - [Über Dorian](https://dorianrammer.at/ueber-dorian-rammer/): beruflicher Weg und Arbeitsweise.
+- [Presse und Zusammenarbeit](https://dorianrammer.at/presse/): Medienberichte, eigene Beiträge, Stationen, Zusammenarbeit, Kurzbiografien für die Presse und Unterstützung.
 - [Widerstandskraft](https://www.widerstandskraft.link/): persönliche Essays über Psyche, Krisen, Trauma, Sucht und Resilienz. Hauptprojekt.
 - [Alexander Forum](https://alexander.forum/): unabhängiger, nicht gewinnorientierter Think & Do Tank für Reflexion, Resilienz und gesellschaftliche Analyse, von Dorian Rammer gegründet und geleitet. Hauptprojekt.
 - [Quotenlabor](https://dorianrammer.at/#quotenlabor): Nebenprojekt im Aufbau, Forschung zu Sportwettenmärkten, Wahrscheinlichkeiten und Marktpreisen. Noch nicht online.

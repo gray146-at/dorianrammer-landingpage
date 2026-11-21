@@ -531,3 +531,69 @@ img{
     gap:18px;
   }
 }
+
+
+/* ---------- Presseseite ---------- */
+
+.texte .zeitraum{
+  font-size:14px;
+  color:var(--rot);
+}
+
+.texte .medium{
+  display:block;
+  margin-top:3px;
+  font-family:var(--sans);
+  font-size:15px;
+  line-height:1.5;
+  color:var(--grau);
+}
+
+.stationen li > span:last-child{
+  font-size:16px;
+  line-height:1.5;
+}
+
+.einleitung{
+  margin:0 0 20px;
+  max-width:36em;
+  color:var(--grau);
+}
+
+.nachsatz{
+  margin:20px 0 0;
+  max-width:40em;
+  font-size:15px;
+  color:var(--grau);
+}
+
+.kurzbio{
+  border:1px solid var(--linie);
+  padding:18px 22px;
+  margin:0 0 16px;
+  max-width:40em;
+}
+
+.kurzbio h3{
+  font-family:var(--sans);
+  font-size:14px;
+  font-weight:500;
+  color:var(--grau);
+  margin:0 0 8px;
+}
+
+.kurzbio p{
+  margin:0;
+}
+
+.abschnitt .projekte-liste{
+  margin-top:0;
+  max-width:40em;
+}
+
+.weiter-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px 24px;
+  margin:0;
+}
