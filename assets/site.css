@@ -1,0 +1,533 @@
+/* dorianrammer.at
+   Gemeinsames Stylesheet für Startseite und Über-Seite (DE/EN).
+   Schriften wie Widerstandskraft: Lora (Überschriften, Lesetext), Noto Sans (Gebrauchstext).
+   Rot #d81e1e nur als Signal: Daten, Link-Linien, Auswahl, Fokus, roter Faden. */
+
+@font-face{
+  font-family:'Lora';
+  font-style:normal;
+  font-weight:400 600;
+  font-display:swap;
+  src:url('/assets/fonts/lora-latin-var.woff2') format('woff2');
+}
+
+@font-face{
+  font-family:'Noto Sans';
+  font-style:normal;
+  font-weight:400 600;
+  font-stretch:100%;
+  font-display:swap;
+  src:url('/assets/fonts/noto-sans-latin-var.woff2') format('woff2');
+}
+
+:root{
+  --grund:#ffffff;
+  --tinte:#151515;
+  --grau:#5e5e5e;
+  --linie:#e3e3e3;
+  --rot:#d81e1e;
+  --maxw:1120px;
+  --rand:40px;
+  --serif:'Lora',Georgia,'Times New Roman',serif;
+  --sans:'Noto Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+
+*{box-sizing:border-box}
+
+html{
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+}
+
+body{
+  position:relative;
+  margin:0;
+  background:var(--grund);
+  color:var(--tinte);
+  font-family:var(--sans);
+  font-size:17px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  hyphens:auto;
+  hyphenate-limit-chars:10 4 4;
+}
+
+::selection{
+  background:var(--rot);
+  color:#fff;
+}
+
+a{
+  color:inherit;
+  text-decoration-color:var(--rot);
+  text-decoration-thickness:1px;
+  text-underline-offset:.22em;
+}
+
+a:hover{
+  color:var(--rot);
+}
+
+a:focus-visible{
+  outline:2px solid var(--rot);
+  outline-offset:3px;
+}
+
+h1,h2,h3{
+  font-family:var(--serif);
+  font-weight:500;
+  margin:0;
+  hyphens:manual;
+  text-wrap:balance;
+}
+
+p{
+  text-wrap:pretty;
+}
+
+img{
+  max-width:100%;
+}
+
+.wrap{
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:0 var(--rand);
+}
+
+.sprung{
+  position:absolute;
+  left:var(--rand);
+  top:-100px;
+  z-index:10;
+  padding:8px 12px;
+  background:var(--tinte);
+  color:#fff;
+  font-size:15px;
+}
+
+.sprung:focus{
+  top:12px;
+}
+
+
+/* ---------- Kopf ---------- */
+
+.kopf{
+  padding:24px 0;
+  border-bottom:1px solid var(--linie);
+}
+
+.kopf .wrap{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:24px;
+}
+
+.kopf .marke{
+  display:block;
+  line-height:0;
+}
+
+.kopf .marke img{
+  display:block;
+  height:44px;
+  width:auto;
+}
+
+.kopf nav{
+  display:flex;
+  gap:28px;
+  font-size:15px;
+}
+
+.kopf nav a{
+  text-decoration:none;
+}
+
+.kopf nav a[aria-current="page"]{
+  text-decoration:underline;
+  text-decoration-color:var(--rot);
+}
+
+
+/* ---------- Einstieg (Startseite) ---------- */
+
+.einstieg{
+  padding:80px 0 88px;
+}
+
+.einstieg .wrap{
+  display:grid;
+  grid-template-columns:7fr 4fr;
+  gap:72px;
+  align-items:end;
+}
+
+.einstieg h1{
+  font-size:clamp(44px,5.6vw,68px);
+  line-height:1.05;
+  letter-spacing:-.01em;
+  margin:0 0 32px;
+}
+
+.satz{
+  font-family:var(--serif);
+  font-size:clamp(22px,2.4vw,28px);
+  line-height:1.4;
+  margin:0 0 22px;
+  max-width:21em;
+}
+
+.einstieg .intro{
+  color:var(--grau);
+  margin:0 0 8px;
+  max-width:33em;
+}
+
+.portraet{
+  margin:0;
+}
+
+.portraet img{
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:4/5;
+  object-fit:cover;
+  object-position:50% 18%;
+}
+
+.portraet figcaption{
+  margin-top:10px;
+  font-size:14px;
+  color:var(--grau);
+}
+
+
+/* ---------- Abschnitte ---------- */
+
+.abschnitt{
+  border-top:1px solid var(--linie);
+  padding:64px 0 72px;
+}
+
+.abschnitt > .wrap{
+  display:grid;
+  grid-template-columns:4fr 8fr;
+  gap:40px;
+}
+
+.abschnitt h2{
+  font-size:30px;
+  line-height:1.2;
+}
+
+.block + .block{
+  margin-top:56px;
+  padding-top:48px;
+  border-top:1px solid var(--linie);
+}
+
+.block h3{
+  font-size:26px;
+  line-height:1.25;
+  margin-bottom:10px;
+}
+
+.block h3 a{
+  text-decoration:none;
+}
+
+.block > p{
+  margin:0 0 22px;
+  color:var(--grau);
+  max-width:36em;
+}
+
+.texte{
+  list-style:none;
+  margin:0 0 22px;
+  padding:0;
+}
+
+.texte li{
+  display:grid;
+  grid-template-columns:9.5em 1fr;
+  gap:16px;
+  align-items:baseline;
+  padding:12px 0;
+  border-top:1px solid var(--linie);
+}
+
+.texte li:last-child{
+  border-bottom:1px solid var(--linie);
+}
+
+.texte time{
+  font-size:14px;
+  color:var(--rot);
+  font-variant-numeric:tabular-nums;
+}
+
+.texte a{
+  font-family:var(--serif);
+  font-size:20px;
+  text-decoration:none;
+  hyphens:manual;
+}
+
+.papier{
+  margin:0 0 22px;
+}
+
+.papier a{
+  display:block;
+  margin-bottom:4px;
+  font-family:var(--serif);
+  font-size:21px;
+  text-decoration:none;
+  hyphens:manual;
+  text-wrap:balance;
+}
+
+.papier span{
+  display:block;
+  font-size:14px;
+  line-height:1.5;
+  color:var(--grau);
+}
+
+.weiter{
+  font-size:15px;
+}
+
+.nebenbei{
+  margin:48px 0 0;
+  padding-top:28px;
+  border-top:1px solid var(--linie);
+  color:var(--grau);
+  font-size:15px;
+  max-width:40em;
+}
+
+.person p{
+  font-family:var(--serif);
+  font-size:21px;
+  line-height:1.6;
+  margin:0 0 22px;
+  max-width:34em;
+}
+
+
+/* ---------- Über-Seite ---------- */
+
+.seitenkopf{
+  padding:72px 0 56px;
+}
+
+.seitenkopf h1{
+  font-size:clamp(40px,5vw,60px);
+  line-height:1.1;
+  margin:0 0 20px;
+}
+
+.seitenkopf .satz{
+  margin:0;
+  max-width:none;
+}
+
+.ueber > .wrap{
+  align-items:start;
+}
+
+.ueber .portraet{
+  position:sticky;
+  top:32px;
+}
+
+.text section + section{
+  margin-top:56px;
+}
+
+.text h2{
+  font-size:28px;
+  line-height:1.25;
+  margin-bottom:16px;
+}
+
+.text p{
+  margin:0 0 18px;
+  max-width:36em;
+}
+
+.projekte-liste{
+  margin:24px 0 0;
+  padding:0;
+}
+
+.projekte-liste > div{
+  padding:16px 0;
+  border-top:1px solid var(--linie);
+}
+
+.projekte-liste > div:last-child{
+  border-bottom:1px solid var(--linie);
+}
+
+.projekte-liste dt{
+  font-family:var(--serif);
+  font-size:21px;
+  margin-bottom:4px;
+}
+
+.projekte-liste dt a{
+  text-decoration:none;
+}
+
+.projekte-liste dd{
+  margin:0;
+  color:var(--grau);
+  font-size:16px;
+}
+
+.schluss{
+  margin-top:40px;
+}
+
+
+/* ---------- Fuß ---------- */
+
+.fuss{
+  border-top:1px solid var(--linie);
+  padding:32px 0 44px;
+  font-size:15px;
+  color:var(--grau);
+}
+
+.fuss .wrap{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:12px 28px;
+}
+
+.fuss nav{
+  display:flex;
+  flex-wrap:wrap;
+  gap:24px;
+}
+
+.fuss a{
+  text-decoration:none;
+}
+
+
+/* ---------- Roter Faden (Startseite) ---------- */
+
+.faden{
+  position:absolute;
+  top:0;
+  left:0;
+  pointer-events:none;
+  overflow:visible;
+}
+
+.faden path{
+  fill:none;
+  stroke:var(--rot);
+  stroke-width:1.5;
+  stroke-linejoin:miter;
+  stroke-linecap:butt;
+  transition:stroke-width .25s ease-out;
+}
+
+.faden path.offen{
+  stroke-dasharray:5 6;
+}
+
+.faden path.aktiv{
+  stroke-width:3;
+}
+
+.faden mask path{
+  stroke:#fff;
+  stroke-width:10;
+  stroke-dasharray:none;
+  transition:none;
+}
+
+@media (prefers-reduced-motion:reduce){
+  .faden path{
+    transition:none;
+  }
+}
+
+@media print{
+  .faden{
+    display:none;
+  }
+}
+
+
+/* ---------- Schmal ---------- */
+
+@media (max-width:860px){
+
+  :root{
+    --rand:22px;
+  }
+
+  .einstieg{
+    padding:44px 0 56px;
+  }
+
+  .einstieg .wrap{
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+
+  .einstieg .portraet{
+    max-width:360px;
+  }
+
+  .abschnitt{
+    padding:48px 0 56px;
+  }
+
+  .abschnitt > .wrap{
+    grid-template-columns:1fr;
+    gap:28px;
+  }
+
+  .projekte > .wrap{
+    padding-left:46px;
+  }
+
+  .texte li{
+    grid-template-columns:1fr;
+    gap:2px;
+  }
+
+  .person p{
+    font-size:19px;
+  }
+
+  .seitenkopf{
+    padding:44px 0 36px;
+  }
+
+  .ueber .portraet{
+    position:static;
+    max-width:360px;
+  }
+
+  .kopf .marke img{
+    height:38px;
+  }
+
+  .kopf nav{
+    gap:18px;
+  }
+}
