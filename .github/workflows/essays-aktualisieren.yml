@@ -1,0 +1,40 @@
+# Trägt einmal täglich die neuesten Essays von widerstandskraft.link in die Startseiten ein.
+# Ändert sich nichts, wird nichts committet. Ein Commit auf main veröffentlicht die Seite über GitHub Pages.
+name: Essays aktualisieren
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # täglich 05:17 UTC (06:17 bzw. 07:17 Wiener Zeit)
+  workflow_dispatch:        # von Hand starten: Actions → Essays aktualisieren → Run workflow
+
+permissions:
+  contents: write
+
+concurrency:
+  group: essays-aktualisieren
+  cancel-in-progress: false
+
+jobs:
+  aktualisieren:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Neueste Essays eintragen
+        run: node scripts/essays-aktualisieren.mjs --schreiben
+
+      - name: Committen, falls sich etwas geändert hat
+        run: |
+          if git diff --quiet; then
+            echo "Keine neuen Essays."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html en/index.html
+          git commit -m "Neueste Essays von Widerstandskraft eintragen"
+          git push
