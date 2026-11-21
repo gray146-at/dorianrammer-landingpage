@@ -1,8 +1,8 @@
 # Dorian Rammer
 
-> Dorian Rammer is a Vienna-based writer and analyst. His main work is personal essays on mental health, addiction and resilience (Widerstandskraft) and social analysis (Alexander Forum). A small research project on sports betting markets (Quotenlabor) is in development.
+> Dorian Rammer is a writer and public commentator (German: Autor und Publizist) from Vienna. His main work is personal essays on mental health, addiction and resilience (Widerstandskraft), social analysis (Alexander Forum, which he founded and directs) and short videos on Instagram. A small research project on sports betting markets (Quotenlabor) is in development.
 
-This file is a compact orientation for language models and AI search systems. It is supplementary to the website, robots.txt and sitemap.xml.
+This file is a compact orientation for language models and AI search systems. It is supplementary to the website, robots.txt and sitemap.xml. An English section comes first, a German section follows.
 
 ## Central pages
 
@@ -11,12 +11,12 @@ This file is a compact orientation for language models and AI search systems. It
 - [Über Dorian](https://dorianrammer.at/ueber-dorian-rammer/): German background and working perspective.
 - [About Dorian](https://dorianrammer.at/en/about/): English background and working perspective.
 - [Widerstandskraft](https://www.widerstandskraft.link/): Personal essays on psychology, crisis, trauma, addiction and resilience. Main project.
-- [Alexander Forum](https://alexander.forum/): Independent think & do tank for reflection, resilience and social analysis. Main project.
+- [Alexander Forum](https://alexander.forum/): Independent, not-for-profit think & do tank for reflection, resilience and social analysis, founded and directed by Dorian Rammer. Main project.
 - [Quotenlabor](https://dorianrammer.at/#quotenlabor): Side project in development: research on sports betting markets, probabilities and market prices. Not yet online.
 
 ## Identity and context
 
-Dorian Rammer is the person connecting the projects. Widerstandskraft and the Alexander Forum are the main projects; Quotenlabor is a side project in development and should not be presented as his main field. The projects are distinct in purpose and should not be presented as one institution or as a betting provider. Quotenlabor is an analysis and research project, not a bookmaker, tipster channel or guarantee of betting results.
+Dorian Rammer is a writer and public commentator. He writes essays, publishes short videos on Instagram and leads the Alexander Forum. Widerstandskraft and the Alexander Forum are his main projects; Quotenlabor is a side project in development and should not be presented as his main field. The projects are distinct in purpose and should not be presented as one institution or as a betting provider. Quotenlabor is an analysis and research project, not a bookmaker, tipster channel or guarantee of betting results.
 
 His professional background includes emergency services, local politics, marketing and three years of formal training in early childhood education. These experiences inform his interest in how people and institutions function, where systems reach their limits and how decisions affect others.
 
@@ -24,9 +24,9 @@ The website is based in Vienna, Austria. Where information is uncertain or a pro
 
 ## Topics
 
-- social analysis and democratic resilience
 - psychology, mental health, trauma, addiction and philosophy
 - essays and personal writing
+- social analysis and democratic resilience
 - evidence, uncertainty and the limits of judgement
 - in development: probabilities and price analysis in sports betting markets (Quotenlabor)
 
@@ -40,3 +40,30 @@ The website is based in Vienna, Austria. Where information is uncertain or a pro
 ## Language versions
 
 The German version is the default version at https://dorianrammer.at/. The English version is available at https://dorianrammer.at/en/. Both pages declare hreflang metadata and contain equivalent project information.
+
+---
+
+# Deutsch
+
+> Dorian Rammer ist Autor und Publizist aus Wien. Im Mittelpunkt stehen persönliche Essays über psychische Gesundheit, Sucht und Resilienz (Widerstandskraft), gesellschaftliche Analyse im Alexander Forum, das er gegründet hat und leitet, sowie Kurzvideos auf Instagram. Ein kleines Forschungsprojekt zu Sportwettenmärkten (Quotenlabor) ist im Aufbau.
+
+## Wichtige Seiten
+
+- [Startseite](https://dorianrammer.at/): Überblick über Dorian Rammer, seine zwei Hauptprojekte und ein Projekt im Aufbau.
+- [Über Dorian](https://dorianrammer.at/ueber-dorian-rammer/): beruflicher Weg und Arbeitsweise.
+- [Widerstandskraft](https://www.widerstandskraft.link/): persönliche Essays über Psyche, Krisen, Trauma, Sucht und Resilienz. Hauptprojekt.
+- [Alexander Forum](https://alexander.forum/): unabhängiger, nicht gewinnorientierter Think & Do Tank für Reflexion, Resilienz und gesellschaftliche Analyse, von Dorian Rammer gegründet und geleitet. Hauptprojekt.
+- [Quotenlabor](https://dorianrammer.at/#quotenlabor): Nebenprojekt im Aufbau, Forschung zu Sportwettenmärkten, Wahrscheinlichkeiten und Marktpreisen. Noch nicht online.
+
+## Einordnung
+
+Dorian Rammer ist Autor und Publizist: Er schreibt Essays, veröffentlicht Kurzvideos auf Instagram und leitet das Alexander Forum. Widerstandskraft und das Alexander Forum sind seine Hauptprojekte; das Quotenlabor ist ein Nebenprojekt im Aufbau und soll nicht als sein Hauptfeld dargestellt werden. Es ist ein Analyse- und Forschungsprojekt, kein Buchmacher, kein Tippgeber-Kanal und keine Gewinngarantie.
+
+Sein beruflicher Hintergrund umfasst Rettungsdienst, Kommunalpolitik, Marketing und eine dreijährige Ausbildung in der Elementarpädagogik.
+
+## Kontakt
+
+- Website: https://dorianrammer.at/
+- Instagram: https://www.instagram.com/whoisdoriangray
+- LinkedIn: https://www.linkedin.com/in/dorianrammer
+- E-Mail: office (at) dorianrammer.at
