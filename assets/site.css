@@ -647,13 +647,13 @@ img{
 .pressefotos{
   display:flex;
   flex-wrap:wrap;
-  align-items:flex-end;
+  align-items:flex-start;
   gap:24px;
   margin:0 0 24px;
 }
 
 .pressefoto{
-  flex:0 1 240px;
+  flex:0 1 200px;
   margin:0;
 }
 
@@ -661,6 +661,9 @@ img{
   display:block;
   width:100%;
   height:auto;
+  aspect-ratio:4/5;
+  object-fit:cover;
+  object-position:50% 25%;
 }
 
 .pressefoto figcaption{
