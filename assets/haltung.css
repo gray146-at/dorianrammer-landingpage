@@ -1,0 +1,125 @@
+/* Seite „Wofür ich stehe“ (nur dort geladen, ergänzt site.css).
+   Ein roter Faden läuft links an den vier Feldern entlang und zeichnet sich beim Lesen;
+   erreicht er ein Feld, füllt sich dessen Punkt. Die Sätze blenden beim Hereinscrollen sanft ein.
+   Ohne JavaScript und bei „Bewegung reduzieren“ ist alles sofort fertig da. */
+
+.haltung-intro{
+  margin:0;
+  max-width:34em;
+  color:var(--grau);
+  font-size:18px;
+}
+
+.haltung{
+  position:relative;
+  --faden-x:calc(max((100% - var(--maxw)) / 2, 0px) + var(--rand) - 28px);
+}
+
+.haltung-faden{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:var(--faden-x);
+  width:2px;
+  pointer-events:none;
+}
+
+.haltung-faden span{
+  display:block;
+  width:1.5px;
+  height:calc(var(--fortschritt, 1) * 100%);
+  background:var(--rot);
+}
+
+.haltung-feld{
+  position:relative;
+}
+
+.haltung-feld::before{
+  content:'';
+  position:absolute;
+  left:calc(var(--faden-x) - 4.5px);
+  top:77px;
+  width:10px;
+  height:10px;
+  border:1.5px solid var(--rot);
+  border-radius:50%;
+  background:var(--rot);
+  box-sizing:border-box;
+  transition:background-color .4s ease-out;
+}
+
+.haltung.laeuft .haltung-feld:not(.erreicht)::before{
+  background:var(--grund);
+}
+
+.haltung-feld h2{
+  position:sticky;
+  top:40px;
+  align-self:start;
+}
+
+.satz-block{
+  margin:0 0 40px;
+}
+
+.satz-block:last-child{
+  margin-bottom:0;
+}
+
+.satz-block blockquote{
+  margin:0;
+}
+
+.satz-block blockquote p{
+  margin:0 0 8px;
+  max-width:30em;
+  font-family:var(--serif);
+  font-size:clamp(21px, 2.2vw, 26px);
+  line-height:1.45;
+  hyphens:manual;
+}
+
+.satz-block figcaption{
+  font-size:14px;
+  color:var(--grau);
+}
+
+.satz-block figcaption a{
+  color:inherit;
+}
+
+html.bewegt .satz-block{
+  opacity:0;
+  transform:translateY(14px);
+  transition:opacity .8s ease-out, transform .8s ease-out;
+}
+
+html.bewegt .satz-block.sichtbar{
+  opacity:1;
+  transform:none;
+}
+
+@media (max-width:860px){
+  .haltung{
+    --faden-x:18px;
+  }
+  .haltung .wrap{
+    padding-left:44px;
+  }
+  .haltung-feld::before{
+    top:58px;
+  }
+  .haltung-feld h2{
+    position:static;
+  }
+  .satz-block{
+    margin-bottom:32px;
+  }
+}
+
+@media print{
+  .haltung-faden, .haltung-feld::before{
+    display:none;
+  }
+}

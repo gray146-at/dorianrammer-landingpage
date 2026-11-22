@@ -43,4 +43,18 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://dorianrammer.at/wofuer-ich-stehe/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://dorianrammer.at/en/what-i-stand-for/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
 </urlset>
