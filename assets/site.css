@@ -643,3 +643,20 @@ img{
   font-size:15px;
   color:var(--grau);
 }
+
+.pressefoto{
+  margin:0 0 24px;
+  max-width:240px;
+}
+
+.pressefoto img{
+  display:block;
+  width:100%;
+  height:auto;
+}
+
+.pressefoto figcaption{
+  margin-top:8px;
+  font-size:14px;
+  color:var(--grau);
+}
