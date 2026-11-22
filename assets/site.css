@@ -644,9 +644,17 @@ img{
   color:var(--grau);
 }
 
-.pressefoto{
+.pressefotos{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-end;
+  gap:24px;
   margin:0 0 24px;
-  max-width:240px;
+}
+
+.pressefoto{
+  flex:0 1 240px;
+  margin:0;
 }
 
 .pressefoto img{
@@ -657,6 +665,7 @@ img{
 
 .pressefoto figcaption{
   margin-top:8px;
+  hyphens:manual;
   font-size:14px;
   color:var(--grau);
 }
