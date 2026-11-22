@@ -11,7 +11,7 @@
   Aufruf (Node 18 oder neuer, keine Abhängigkeiten):
     node scripts/essays-aktualisieren.mjs            Vorschau, ändert nichts
     node scripts/essays-aktualisieren.mjs --schreiben
-    node scripts/essays-aktualisieren.mjs --anzahl 3 (Standard: 3)
+    node scripts/essays-aktualisieren.mjs --anzahl 4 (Standard: 4)
 
   Danach committen und pushen; live geht es mit dem nächsten Merge auf main.
 */
@@ -23,7 +23,7 @@ const wurzel = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
 const schreiben = args.includes('--schreiben');
 const anzahlIndex = args.indexOf('--anzahl');
-const anzahl = anzahlIndex >= 0 ? Number(args[anzahlIndex + 1]) : 3;
+const anzahl = anzahlIndex >= 0 ? Number(args[anzahlIndex + 1]) : 4;
 
 const seiten = [
   { datei: 'index.html', feed: 'https://www.widerstandskraft.link/rss/', sprache: 'de' },
